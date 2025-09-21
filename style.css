@@ -1,0 +1,144 @@
+* {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Futura It;
+    src: url(./FuturaPTMediumOblique.otf);
+}
+
+@font-face {
+    font-family: Futura;
+    src: url(./FuturaPTLight.otf);
+}
+
+@font-face {
+    font-family: FuturaD;
+    src: url(./FuturaPTDemi.otf);
+}
+
+.text-light {
+    font-family: Futura;
+    font-size: 1vw;
+}
+
+.text-bold {
+    font-family: FuturaD;
+    font-size: 1.5vw;
+}
+
+.Ellipse {
+    width: 0.4vw;
+    height: 0.4vw;
+    border-radius: 200vw;
+    background-color: black;
+}
+
+.fiol-div {
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 7vw 7vw;
+    background-color: #B6329B;
+    font-size: 5vw;
+    font-family: Futura It;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    color: white;
+}
+
+.linki {
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.a-linki {
+    color: black;
+    text-decoration: underline;
+    font-family: Futura;
+    font-size: 3vw;
+}
+
+section {
+    margin-top: 2vw;
+    background-color: #FFFDF0;
+    /* display: flex; 
+    flex-direction: column;
+    align-items: center; */
+}
+
+.div-photo-table {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    padding-top: 2vw;
+    color: black;
+    font-size: 4.5vw;
+    text-align: center;
+    font-family: FuturaD;
+}
+
+.photo-table {
+    margin-top: 1vw;
+    width: 95%;
+}
+
+.text {
+    color: black;
+    font-family: Futura;
+    font-size: 3vw;
+    margin-top: 2vw;
+    text-align: left;
+    padding-left: 3vw;
+}
+
+span {
+    color: black;
+    font-family: Futura;
+    font-size: 3vw;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1vw;
+    text-align: center;
+}
+
+.a-kontakti {
+    font-size: 3vw;
+    font-family: Futura;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.a-kontakti-div {
+    line-height: -120%;
+}
+
+.div-table {
+    margin: 7vw auto;
+    /* border: 2px solid #B6329B; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+
+.socialm {
+    width: 7vw;
+}
+
+.bold {
+    font-family: FuturaD;
+}
